@@ -1,33 +1,70 @@
-# 《星空独白》Suno 生成指南（短版）
+# 《星空独白》Suno 生成指南
 
-## 1. Style of Music（风格）
+第四版（约 3 分钟）是目前听感最好的一版：有年份喊词“一八八八！”，还有加速、鼓停、鼓重新进来这些段落标签带出的起伏。问题是太长。下面有两条路：
+
+- **路线 A：直接剪那首 3 分钟的**。不花额度，原汁原味。
+- **路线 B：保留第四版的制作方式，换成短版歌词重新生成**。目标约 90 秒。
+
+---
+
+## 路线 A：剪辑已有的 3 分钟版本
+
+按下面的优先级保留段落（对应第四版歌词），剪到大约 90 秒。在剪映或 Suno 编辑器里操作，剪切点都放在**一组四句的开头，也就是重拍上**，接缝处加 0.1～0.2 秒的交叉淡化。
+
+| 顺序 | 保留的段落（第四版） | 估计时长 | 作用 |
+|---|---|---|---|
+| 1 | Intro 念白 | 约 6 秒 | 开场 |
+| 2 | Verse 1 第一组：「（一八八八！）画架一扛」到「苦艾一口 就上头」 | 约 11 秒 | 喊词 + 出发 |
+| 3 | Verse 1 第三组：「剃刀一抖」到「赶出镇口」 | 约 11 秒 | 苦艾上头 → 割耳，衔接自然 |
+| 4 | 第一遍副歌（整段） | 约 21 秒 | 主题 |
+| 5 | Verse 2 加速段：「柏树是火」到「灵感正在点燃」 | 约 6 秒 | 星空诞生，最炸的一段 |
+| 6 | Verse 2：「九零年」到「提奥 只多撑了半年」 | 约 11 秒 | 鼓停、死亡、提奥 |
+| 7 | Outro：「印上帆布包」到「想被看见的心」 | 约 16 秒 | 九块九反讽 + 点题 |
+| 8 | 结尾念白 | 约 5 秒 | 首尾呼应 |
+
+合计约 87 秒。以上时长都是按 90 BPM 估算的，实际以音频为准。
+
+**删掉的部分**：Verse 1 第二组（高更）和第四组、Verse 2 开头一组和「墓碑并肩」、第二遍副歌、Bridge、Outro 前四句。
+
+**如果还是太长**，就去掉第 3 项（约省 11 秒）。
+
+**如果音乐上接不顺**：第 6 项结尾是鼓停的状态，直接接第 7 项会显得突兀。可以把第 7 项换成从 Outro 开头「一百年后」开始（鼓重新进来的位置），时长会多出约 11 秒。
+
+---
+
+## 路线 B：第四版的制作方式 + 短版歌词
+
+### 1. Style of Music
+
+和第四版完全相同：
 
 ```
-Chinese rap, tight punchy flow, 90 BPM, dark piano, orchestral strings, hard boom bap drums, raspy male vocal, emotional, cinematic, short intro
+Chinese rap, tight punchy flow, 90 BPM, dark piano, orchestral strings, hard boom bap drums, raspy male vocal, emotional, cinematic
 ```
 
-## 2. Exclude Styles（排除风格）
+### 2. Exclude Styles
 
 ```
-female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
+female vocals, autotune, EDM, pop, happy, upbeat
 ```
 
-## 3. Title（标题）
+### 3. Title
 
 ```
 星空独白 Starry Monologue
 ```
 
-## 4. Lyrics（整段复制粘贴）
-
-方括号 `[...]` 是结构标签，不会被唱出来；歌词里不放圆括号。
+### 4. Lyrics（整段复制）
 
 ```
 [Intro]
 [Spoken Word]
-亲爱的提奥 今晚的星星 比白天还亮
+[Soft piano]
+亲爱的提奥
+今晚的星星 比白天还亮
 
 [Verse]
+(一八八八！)
 画架一扛 往南走
 追着太阳 黄满手
 盼高更来 当盟友
@@ -46,16 +83,27 @@ female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
 我是一颗星 烧在他乡
 
 [Verse]
+(一八八九！)
 铁窗把天 剪成片
 夜里星空 在窗前
+
+[Double Time]
 柏树是火 星是漩
+月亮是橙 挂天边
+医生说 你要安眠
 我把疯 画成了天
+
+[Build]
 九零年 奥维尔麦田
+
+[Beat drops out]
+[Spoken Word]
 枪声很轻 像句晚安
 提奥 只多撑了半年
 两块墓碑 并肩
 
 [Outro]
+[Drums kick back in]
 一百年后 锤子一响
 八千万 全场鼓掌
 印上帆布包 手机屏
@@ -64,21 +112,22 @@ female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
 只有你 一直看得见
 
 [Spoken Word]
+[Piano only]
 亲爱的提奥 今晚的星星 还是很亮
 
 [End]
 ```
 
-## 5. 控制时长
+第四版长达 3 分钟，主要是因为它有两遍副歌、一段 Bridge 和很长的 Outro。这一版只有一遍副歌、没有 Bridge，估计约 90 秒。
 
-Suno 没有精确设置时长的选项，歌曲长度主要由歌词多少决定。这版歌词 28 行加两句念白，按 90 BPM 算大约 80～85 秒。
+### 5. 想要同一个声音：用 Persona
 
-- 生成出来如果超过 90 秒，通常是前奏或间奏被拉长了。可以在 Suno 编辑器里用 **Crop / Trim** 剪掉多余的部分，或者剪映导入后再剪
-- 风格框里的 `short intro` 和排除风格里的 `long instrumental` 是用来压缩前奏、间奏的
-- 每次生成都会消耗额度，建议先抽 3～4 版，挑出最好的一版再局部修
+如果你的 Suno 账号有 **Persona** 功能（通常需要付费会员），可以从第四版那首歌创建一个 Persona，再用它和上面的短版歌词生成。这样人声和曲风最接近你喜欢的那一版。
 
-## 6. 其他技巧
+---
 
+## 其他技巧
+
+- 生成超过 90 秒时，多半是前奏或间奏被拉长了，剪掉即可
 - 某一句咬字不清，用 **Replace Section** 只重做那一段
-- 念白念得不自然，就删掉念白再生成，念白用自己的声音后期拼接
 - 多音字或生僻字唱错时换成同音字，例如“漩”写成“旋”

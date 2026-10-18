@@ -56,6 +56,8 @@ Emotional Mandarin storytelling rap, dark cinematic, 90 BPM, deep raspy male voc
 铁窗把天 剪成片
 夜里星空 在窗前
 柏树是火 星是漩
+月亮是橙 挂天边
+医生说 你要安眠
 我把疯 画成了天
 九零年 奥维尔麦田
 枪声很轻 像句晚安
