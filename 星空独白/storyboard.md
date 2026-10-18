@@ -1,4 +1,4 @@
-# 《星空独白》分镜表（短版，约 75 秒）
+# 《星空独白》分镜表（短版，约 80～85 秒）
 
 ## 统一风格后缀
 
@@ -29,8 +29,9 @@ Van Gogh style, thick impasto oil brushstrokes, swirling textures, vivid blue an
 | 11 | 九零年 → 像句晚安 | 《麦田群鸦》，乌鸦飞起，画面变暗 | 图生视频 | `crows taking off over wheat field, dark stormy sky, slow fade to black` |
 | 12 | 提奥 → 两块墓碑 并肩 | 两块并排的墓碑，常春藤 | 文生视频 | `two simple gravestones side by side covered in ivy, soft morning light` |
 | 13 | 一百年后 → 全场鼓掌 | 拍卖锤落下，切到美术馆人群举手机 | 文生视频 | `auction gavel slamming down, then crowd in modern museum photographing The Starry Night` |
-| 14 | 全世界 晚到了一百年 → 只有你 一直看得见 | 人群渐渐虚化消失，只剩一封旧信放在画前 | 文生视频 | `crowd fading away, an old handwritten letter resting before The Starry Night, empty museum` |
-| 15 | 念白 | 回到《星月夜》，只剩一颗星在闪，黑屏 | 图生视频 | 配字幕「文森特·梵高 1853–1890」「提奥·梵高 1857–1891」 |
+| 14 | 印上帆布包 → 还要好评 | 帆布包、手机壳上的星空快切，最后定格在手机屏上的“九块九包邮”和打分星星 | 文生图 + 剪映快切 | 3～4 张商品图，每张约 0.3 秒；最后一张做成购物页面截图，价格 ¥9.9 |
+| 15 | 全世界 晚到了一百年 → 只有你 一直看得见 | 人群渐渐虚化消失，只剩一封旧信放在画前 | 文生视频 | `crowd fading away, an old handwritten letter resting before The Starry Night, empty museum` |
+| 16 | 念白 | 回到《星月夜》，只剩一颗星在闪，黑屏 | 图生视频 | 配字幕「文森特·梵高 1853–1890」「提奥·梵高 1857–1891」 |
 
 ## 实操提醒
 

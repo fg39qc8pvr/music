@@ -58,6 +58,8 @@ female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
 [Outro]
 一百年后 锤子一响
 八千万 全场鼓掌
+印上帆布包 手机屏
+九块九包邮 还要好评
 全世界 晚到了一百年
 只有你 一直看得见
 
@@ -69,7 +71,7 @@ female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
 
 ## 5. 控制时长
 
-Suno 没有精确设置时长的选项，歌曲长度主要由歌词多少决定。这版歌词 26 行加两句念白，按 90 BPM 算大约 70～80 秒。
+Suno 没有精确设置时长的选项，歌曲长度主要由歌词多少决定。这版歌词 28 行加两句念白，按 90 BPM 算大约 80～85 秒。
 
 - 生成出来如果超过 90 秒，通常是前奏或间奏被拉长了。可以在 Suno 编辑器里用 **Crop / Trim** 剪掉多余的部分，或者剪映导入后再剪
 - 风格框里的 `short intro` 和排除风格里的 `long instrumental` 是用来压缩前奏、间奏的
