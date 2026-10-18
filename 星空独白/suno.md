@@ -29,13 +29,13 @@ female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
 
 [Verse]
 画架一扛 往南走
-太阳一烫 黄满手
+追着太阳 黄满手
 盼高更来 当盟友
 一间屋里 俩猛兽
 剃刀一抖 血往下流
-割下左耳 塞她手
+全镇签名 堵门口
 九百张画 没人收
-一直画 画不到白头
+只有提奥 不松手
 
 [Chorus]
 星空在烫 孤独在涨
@@ -49,15 +49,17 @@ female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
 铁窗把天 剪成片
 夜里星空 在窗前
 柏树是火 星是漩
-月亮是橙 挂天边
+我把疯 画成了天
 九零年 奥维尔麦田
 枪声很轻 像句晚安
-一百年后 锤子一响
-八千万 买我一张
+提奥 只多撑了半年
+两块墓碑 并肩
 
 [Outro]
-星星不疯 怎么发光
-我是一颗星 烧在他乡
+一百年后 锤子一响
+八千万 全场鼓掌
+全世界 晚到了一百年
+只有你 一直看得见
 
 [Spoken Word]
 亲爱的提奥 今晚的星星 还是很亮
@@ -67,7 +69,7 @@ female vocals, autotune, EDM, pop, happy, upbeat, long instrumental
 
 ## 5. 控制时长
 
-Suno 没有精确设置时长的选项，歌曲长度主要由歌词多少决定。这版歌词约 24 行加两句念白，按 90 BPM 算大约 70～80 秒。
+Suno 没有精确设置时长的选项，歌曲长度主要由歌词多少决定。这版歌词 26 行加两句念白，按 90 BPM 算大约 70～80 秒。
 
 - 生成出来如果超过 90 秒，通常是前奏或间奏被拉长了。可以在 Suno 编辑器里用 **Crop / Trim** 剪掉多余的部分，或者剪映导入后再剪
 - 风格框里的 `short intro` 和排除风格里的 `long instrumental` 是用来压缩前奏、间奏的
